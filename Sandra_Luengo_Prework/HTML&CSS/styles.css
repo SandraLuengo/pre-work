@@ -1,0 +1,230 @@
+/******* BODY STYLE *******/
+html,body{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.clearfix {
+  clear: both;
+}
+
+.col {
+  float: left;
+}
+
+.col-3 {
+  width: 30%;
+}
+
+.col-middle {
+  margin: 0 5%;
+}
+.right{
+	float: right;
+}
+.btn{
+	padding: 0.8% 2.4%;
+	border-radius: 20px;
+	color: white;
+	text-decoration: none;
+}
+h1{
+	font-size: 3em;
+    font-weight: 100;
+}
+h2{
+	font-size: 2em;
+    font-weight: 100;
+}
+/******* NAV-BAR STYLE *******/
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 40px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.top-left{
+	float: left;
+	margin-left: 1%;
+}
+.heart{
+	width: 20px;
+}
+.acronym{
+	padding: 7px;
+}
+.mrg-btm{
+	margin-bottom: 8%;
+}
+/******* HEADER STYLE *******/
+#header{
+	color: white;
+	background-image: url('images/city-scape.svg');
+	background-size: cover;
+}
+#header .search-bar{
+	float: left;
+	width: 98%;
+	padding: 1%;
+}
+.search-bar img{
+	width: 100px;
+}
+.sign img{
+	width: 40px;
+	margin-left: 10px;
+}
+.search-bar .logo{
+	width: 8%;
+}
+.search-bar .form{
+	width: 75%;
+	margin-left: 1%;
+}
+.search-bar .sign{
+	display: flex;
+	align-items: center;
+	width: 13%;
+}
+.form input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  width: 90%;
+  background-color: rgb(31, 82, 111);
+  border:solid 1px grey;
+  height: 20px;
+  float: left;
+}
+.form button {
+  width: 5%;
+  padding: 10px;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  background-color: rgb(31, 82, 111);
+  border-left: none;
+  cursor: pointer;
+  float: left;
+}
+.header-content{
+	width: 60%;
+	margin: 0 auto;
+}
+.btn-orange{
+	background-color: rgb(240, 146, 51);
+}
+.btn-orange:hover{
+	background-color: #e97e11 !important;
+}
+.header-content{
+	
+	text-align: left;
+	height: 500px;
+}
+#header .text{
+	width: 40%;
+	margin-bottom: 2%;
+}
+/******* SECTION 1 STYLE *******/
+#section1{
+	background-color: rgb(39, 53, 71);
+	color: white;
+	height: 500px;
+}
+#section1 .links{
+	font-weight: 700;
+	text-decoration: none;
+	color: white;
+}
+#section1 .container{
+	width: 60%;
+	margin: 0 auto;
+	padding: 2% 0;
+	display: flex;
+	align-items: center;
+}
+.container .left{
+	float: left;
+	width: 48%;
+}
+.container .right{
+	float: left;
+	width: 48%;
+	margin-left: 4%;
+}
+.btn-red{
+	background-color: rgb(203, 56, 55);
+	padding: 1.5% 20%;
+}
+.btn-red:hover{
+	background-color: #c33332;
+}
+.sec1-sign{
+	text-align: center;
+}
+/******* SECTION 2 STYLE *******/
+#section2{
+	background-image: url('images/forklift.svg');
+	background-size: cover;
+	color: white;
+	height: 500px;
+	display: flex;
+    align-items: center;
+}
+#section2 .container{
+	width: 60%;
+	margin: 0 auto;
+	padding: 2% 0;
+}
+#section2 .container div{
+	width: 65%;
+	margin-left: 8px;
+	margin-bottom: 3%;
+} 
+.btn-grey{
+	background-color: rgb(49, 68, 88);
+	padding: 1.4% 5.5%;
+}
+.btn-grey:hover{
+	background-color: #253544;
+}
+/******* SECTION 3 STYLE *******/
+#section3{
+	width: 60%;
+	margin: 0 auto;
+	padding: 2% 0;
+	margin-bottom: 23%;
+}
+.sect3-top,.sect3-bottom{
+	text-align: center;
+}
+.sect3-bottom{
+	margin-top: 2%;
+}
+.sect3-bottom p{
+	font-weight: bold;
+}
+.sect3-bottom a{
+	color: #cb3837;
+    text-decoration: none;
+    font-weight: 600;
+}
